@@ -1185,7 +1185,7 @@ main() {
 
   # Check arguments for the undocumented flags
   for var in "$@"; do
-    case "$var" inhttps://github.com/YAMA-EDV/pihole-2.13.2/tree/master/automated%20install
+    case "$var" in
       "--reconfigure"  ) reconfigure=true;;
       "--i_do_not_follow_recommendations"   ) skipSpaceCheck=false;;
       "--unattended"     ) runUnattended=true;;
